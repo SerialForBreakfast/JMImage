@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JMImages_Tests' do
+  pod 'JMImages', :path => '../'
+  
+  
+end
