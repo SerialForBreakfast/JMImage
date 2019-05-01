@@ -1,0 +1,6 @@
+framework module Pods_JMImages_Tests {
+  umbrella header "Pods-JMImages_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

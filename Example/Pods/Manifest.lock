@@ -1,0 +1,16 @@
+PODS:
+  - JMImages (0.1.0)
+
+DEPENDENCIES:
+  - JMImages (from `../`)
+
+EXTERNAL SOURCES:
+  JMImages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JMImages: 06a65e45fbdff7f0f52c86610ac5e528839c1406
+
+PODFILE CHECKSUM: b81dcae44bf3c7b651db7ffcee09ef3934251a1c
+
+COCOAPODS: 1.6.1
