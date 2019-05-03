@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		18436ED747DDC7E74E7422DCE9A51BA8 /* JMImages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD67C421632BC7E1BD10469A9A2DF97E /* JMImages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3847F27A2DFABC669916DAB62A8E619D /* JMImages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BF62EF554FC8D92B1B0E5BC8CD2803 /* JMImages-dummy.m */; };
+		449A4E91227A1EBC006C38AB /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4E90227A1EBC006C38AB /* Image.swift */; };
+		449A4E93227A2473006C38AB /* RGBAPixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4E92227A2473006C38AB /* RGBAPixel.swift */; };
 		458D4FE422C46CD34463A67162D21903 /* Pods-JMImages_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E4AC2DA19427737FC666B2C14DE7CB /* Pods-JMImages_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		854AE579877392323EA51CBF4A3630F3 /* Pods-JMImages_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF61F1B2A1E2592CF2C58AE6241698EF /* Pods-JMImages_Tests-dummy.m */; };
 		A3F8734F786F9FDE268ABDA47DB69012 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A9762EC19022AFE5B0AE6DBB15C39808 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB7CDD7973D53788D257B5EF8F31A56 /* ReplaceMe.swift */; };
 		E1C2D0F1B017C2121E02221570824AD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,17 +30,18 @@
 /* Begin PBXFileReference section */
 		20657317A3FB1F1A2900A72B9B42B1E7 /* Pods-JMImages_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMImages_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		28884FBA4834A635CE8A0F1E8B2C5EFB /* JMImages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JMImages.modulemap; sourceTree = "<group>"; };
-		35CEABCDD75AF528CA7FD326A333C9C1 /* JMImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JMImages.framework; path = JMImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AB7CDD7973D53788D257B5EF8F31A56 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JMImages/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		5CDDAA06B96464EFCB943E2C803C4ADC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		633C5FCBEEAF61A01A58E610D00A5AD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6DA51BA72405A537D504CACA8EC0D3BE /* JMImages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JMImages.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		704E14BBE2C7DFF38AD19C5AB63730EB /* Pods_JMImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMImages_Tests.framework; path = "Pods-JMImages_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CEABCDD75AF528CA7FD326A333C9C1 /* JMImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449A4E90227A1EBC006C38AB /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Image.swift; path = JMImages/Classes/Image.swift; sourceTree = "<group>"; };
+		449A4E92227A2473006C38AB /* RGBAPixel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAPixel.swift; sourceTree = "<group>"; };
+		5CDDAA06B96464EFCB943E2C803C4ADC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		633C5FCBEEAF61A01A58E610D00A5AD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6DA51BA72405A537D504CACA8EC0D3BE /* JMImages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JMImages.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		704E14BBE2C7DFF38AD19C5AB63730EB /* Pods_JMImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BF62EF554FC8D92B1B0E5BC8CD2803 /* JMImages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMImages-dummy.m"; sourceTree = "<group>"; };
 		85A2A7ABC6894B9E8BDC2BBE37C0C2C6 /* JMImages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMImages-prefix.pch"; sourceTree = "<group>"; };
 		9296E7A5EED9207C6EF26D3A4913B080 /* JMImages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JMImages-Info.plist"; sourceTree = "<group>"; };
 		9A73090471A48684B8AC9EEF8C250B97 /* Pods-JMImages_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMImages_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A26F7F6D21FC34E73DF2BDC187838313 /* Pods-JMImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C4E4AC2DA19427737FC666B2C14DE7CB /* Pods-JMImages_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMImages_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C58D04F0793EDD577F6AF03599AC6134 /* Pods-JMImages_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JMImages_Tests.modulemap"; sourceTree = "<group>"; };
@@ -124,7 +126,8 @@
 		687B6735D210BEB80AE66317BD6DA5D7 /* JMImages */ = {
 			isa = PBXGroup;
 			children = (
-				3AB7CDD7973D53788D257B5EF8F31A56 /* ReplaceMe.swift */,
+				449A4E92227A2473006C38AB /* RGBAPixel.swift */,
+				449A4E90227A1EBC006C38AB /* Image.swift */,
 				0455CE85B8E696F40ADF2E435DA36BB3 /* Pod */,
 				076FEE0FE23D79A195DB84DD2AA04C05 /* Support Files */,
 			);
@@ -243,12 +246,18 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					6B953FBFC2FAF8C1C5B4F7E15062C5AF = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -292,8 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449A4E93227A2473006C38AB /* RGBAPixel.swift in Sources */,
 				3847F27A2DFABC669916DAB62A8E619D /* JMImages-dummy.m in Sources */,
-				A9762EC19022AFE5B0AE6DBB15C39808 /* ReplaceMe.swift in Sources */,
+				449A4E91227A1EBC006C38AB /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9657D41D9A2C950C0838FC201C06B52 /* JMImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -333,6 +344,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -475,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9657D41D9A2C950C0838FC201C06B52 /* JMImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -556,8 +569,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
